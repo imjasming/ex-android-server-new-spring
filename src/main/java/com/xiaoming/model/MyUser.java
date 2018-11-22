@@ -1,4 +1,4 @@
-package xiaoming.model;
+package com.xiaoming.model;
 
 import org.springframework.lang.NonNull;
 

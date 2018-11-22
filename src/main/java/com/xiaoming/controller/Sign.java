@@ -1,9 +1,9 @@
-package xiaoming.controller;
+package com.xiaoming.controller;
 
+import com.xiaoming.model.MyUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import xiaoming.model.MyUser;
-import xiaoming.model.MyUserRepository;
+import com.xiaoming.model.MyUserRepository;
 
 /**
  * @author Xiaoming.

@@ -1,4 +1,4 @@
-package xiaoming.controller;
+package com.xiaoming.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 

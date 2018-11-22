@@ -1,4 +1,4 @@
-package xiaoming.controller;
+package com.xiaoming.controller;
 
 /**
  * @author Xiaoming.

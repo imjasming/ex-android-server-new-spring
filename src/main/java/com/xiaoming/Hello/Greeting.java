@@ -1,4 +1,4 @@
-package xiaoming.Hello;
+package com.xiaoming.Hello;
 
 /**
  * @author Xiaoming.
