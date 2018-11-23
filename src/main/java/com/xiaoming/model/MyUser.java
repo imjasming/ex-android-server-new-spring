@@ -11,31 +11,31 @@ import javax.persistence.Id;
 public class MyUser {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
-    private Integer id;
+    private Long id;
     private String nickName;
     private String password;
     private String email;
 
     public MyUser(){}
 
-    public MyUser(Integer id, String password){
+    public MyUser(Long id, String password){
         this.id = id;
         this.password = password;
     }
 
-    public MyUser(Integer id, String nickName, String password, String email){
+    public MyUser(Long id, String nickName, String password, String email){
         this.id = id;
         this.nickName = nickName;
         this.password = password;
         this.email = email;
     }
 
-    public Integer getUUID() {
+    public Long getId() {
         return id;
     }
 
-    public void setUUID(Integer id) {
-        id = id;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getNickName() {
