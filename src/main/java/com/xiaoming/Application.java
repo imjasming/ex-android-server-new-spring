@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author Xiaoming.
- * Created with IntelliJ IDEA on 2018/11/21 13:18.
+ * Created on 2018/11/21 13:18.
  * Description :
  */
 
