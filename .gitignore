@@ -1,7 +1,4 @@
 .gradle
-/local.properties
-/.idea/workspace.xml
-/EasyBanner
 .DS_Store
 /build
 /captures
