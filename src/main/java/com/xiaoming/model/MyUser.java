@@ -2,28 +2,28 @@ package com.xiaoming.model;
 
 import org.springframework.lang.NonNull;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class MyUser {
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    @Column(nullable = false, unique = true, length = 50)
     private String nickName;
     private String password;
+    @Column(nullable = false, unique = true)
     private String email;
 
-    public MyUser(){}
+    public MyUser() {
+    }
 
-    public MyUser(Long id, String password){
+    public MyUser(Long id, String password) {
         this.id = id;
         this.password = password;
     }
 
-    public MyUser(Long id, String nickName, String password, String email){
+    public MyUser(Long id, String nickName, String password, String email) {
         this.id = id;
         this.nickName = nickName;
         this.password = password;
