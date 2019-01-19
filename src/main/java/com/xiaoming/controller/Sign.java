@@ -36,7 +36,7 @@ public class Sign {
         MyUser result = userRepository.findMyUserByNickNameAndPassword(name, psw);
         HttpStatus status = result == null ? HttpStatus.NOT_FOUND : HttpStatus.OK;
 
-        System.out.println(name + " " + psw);
+        //System.out.println(name + " " + psw);
 
         return new ResponseEntity<MyUser>(result, status);
     }
