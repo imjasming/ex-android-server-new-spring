@@ -7,6 +7,7 @@
 /src/main/resuorces/application.properties
 /build/
 !gradle/wrapper/gradle-wrapper.jar
+*.log
 
 ### STS ###
 .apt_generated
