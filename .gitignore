@@ -12,3 +12,4 @@
 .externalNativeBuild
 *.properties
 /src/main/resuorces/application.properties
+.idea
